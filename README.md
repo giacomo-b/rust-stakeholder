@@ -124,6 +124,11 @@ Contributing? That would involve actual coding. But if you insist:
 2. Add more useless but impressive-looking output
 3. Submit a PR and pretend you understand the codebase
 
+You can use ready made nix development shell, by running:
+```bash
+nix develop
+```
+
 ## Disclaimer
 
 rust-stakeholder is satire. If your entire technical reputation is built on running a fake terminal program, I am not responsible for the inevitable moment when someone asks you to actually, you know, code something.
