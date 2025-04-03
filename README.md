@@ -30,6 +30,12 @@ Remember, it's not about your actual contribution to the codebase, it's about ho
 - 👥 **Imaginary team activity**: Pretend your invisible friends are sending you important pull requests
 - 🎮 **Domain chameleon**: Switch between backend, frontend, blockchain and 7 other domains faster than you can say "full-stack developer"
 
+## Quick run
+
+```bash
+docker run -t --rm ghcr.io/giacomo-b/rust-stakeholder:master
+```
+
 ## Installation
 
 ```
@@ -42,27 +48,6 @@ Or build from source (warning: might involve actual programming):
 git clone https://github.com/giacomo-b/rust-stakeholder.git
 cd rust-stakeholder
 cargo build --release # Look at you doing real developer things!
-```
-
-## Docker
-Build image
-
-```bash
-docker build -t rust-stakeholder .
-```
-
-Usage
-
-Basic usage:
-
-```
-docker run -t --rm rust-stakeholder
-```
-
-All commands below can be used through:
-
-```bash
-docker run -t --rm rust-stakeholder [arguments]
 ```
 
 ## Usage for career advancement
