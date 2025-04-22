@@ -42,6 +42,7 @@ Or build from source (warning: might involve actual programming):
 git clone https://github.com/giacomo-b/rust-stakeholder.git
 cd rust-stakeholder
 cargo build --release # Look at you doing real developer things!
+./target/release/ # Become a 10X dev
 ```
 
 ## Docker
